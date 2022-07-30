@@ -1,0 +1,7 @@
+Market dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   420 |     3690
+  query    |   450 |     2057
+  gallery  |   934 |    42929
+  camstyle  |     0 |        0

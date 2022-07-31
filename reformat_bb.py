@@ -30,7 +30,8 @@ for img in test_imgs:
     filename = '_'.join(img.split('/')[-1].split('_')[0:2]) + '.jpg'
     imgs.add(filename)
 
-for img in imgs:
+for i,img in enumerate(imgs):
+    print(i)
     filename = img.split('.jpg')[0]
     bb_img = glob.glob(os.path.join(test_folder, "{}*.jpg".format(filename)))
     bb_info = [bb for bb in tl if filename in bb[0]]

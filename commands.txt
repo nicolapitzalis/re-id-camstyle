@@ -2,3 +2,4 @@ source ../CamStyle/CycleGAN-for-CamStyle/cGAN/bin/activate
 
 nohup python main.py -d market --logs-dir logs/market-ide --evaluate --resume checkpoints/checkpoint.pth.tar > nohup/nohup.out &
 
+nohup ./esperimenti.sh > nohup/nohup2.out &

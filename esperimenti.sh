@@ -1,6 +1,6 @@
 # init
-git clone https://github.com/nicolapitzalis/re-id-camstyle.git  '/content/camstyle'
-pip install -r camstyle/CycleGAN-for-CamStyle/requirements.txt
+# git clone https://github.com/nicolapitzalis/re-id-camstyle.git  '/content/camstyle'
+# pip install -r camstyle/CycleGAN-for-CamStyle/requirements.txt
 
 # setting up folders
 mkdir camstyle/data/market/all_imgs
